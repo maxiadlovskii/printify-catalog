@@ -1,0 +1,127 @@
+{
+  "catalog": {
+    "items": {
+      "kids": [
+        {
+          "id": 2001,
+          "title": "Kid's Cotton Crew Tee",
+          "by": "Next Level",
+          "count": 3600,
+          "priceFrom": 9.03,
+          "pricePremium": 7.57,
+          "sizesCount": 8,
+          "colorsCount": 25,
+          "printProvidersCount": 4,
+          "bestseller": true,
+          "img": "https://images.printify.com/5c74fdf38767c1000c602b62?s=640"
+        },
+        {
+          "id": 2002,
+          "title": "Kid's Cotton Crew Tee",
+          "by": "Next Level",
+          "count": 3600,
+          "priceFrom": 9.03,
+          "pricePremium": 7.57,
+          "sizesCount": 8,
+          "colorsCount": 25,
+          "printProvidersCount": 4,
+          "bestseller": false,
+          "img": "https://images.printify.com/5c74fdf38767c1000c602b62?s=640"
+        },
+        {
+          "id": 2003,
+          "title": "Kid's Cotton Crew Tee",
+          "by": "Next Level",
+          "count": 3600,
+          "priceFrom": 9.03,
+          "pricePremium": 7.57,
+          "sizesCount": 8,
+          "colorsCount": 25,
+          "printProvidersCount": 4,
+          "bestseller": true,
+          "img": "https://images.printify.com/5c74fdf38767c1000c602b62?s=640"
+        },
+        {
+          "id": 2004,
+          "title": "Kid's Cotton Crew Tee",
+          "by": "Next Level",
+          "count": 3600,
+          "priceFrom": 9.03,
+          "pricePremium": 7.57,
+          "sizesCount": 8,
+          "colorsCount": 25,
+          "printProvidersCount": 4,
+          "bestseller": false,
+          "img": "https://images.printify.com/5c74fdf38767c1000c602b62?s=640"
+        }
+      ],
+      "mens": [
+        {
+          "id": 1001,
+          "title": "Men's Cotton Crew Tee",
+          "by": "Next Level",
+          "count": 3600,
+          "priceFrom": 9.03,
+          "pricePremium": 7.57,
+          "sizesCount": 8,
+          "colorsCount": 25,
+          "printProvidersCount": 4,
+          "bestseller": true,
+          "img": "https://images.printify.com/5d1314bdc1bdb8001121003a?s=640"
+        },
+        {
+          "id": 1002,
+          "title": "Unisex Heavy Cotton Tee",
+          "by": "Gildan",
+          "count": 5000,
+          "priceFrom": 7.88,
+          "pricePremium": 6.07,
+          "sizesCount": 8,
+          "colorsCount": 27,
+          "printProvidersCount": 4,
+          "bestseller": true,
+          "img": "https://images.printify.com/5d1314bdc1bdb8001121003a?s=640"
+        },
+        {
+          "id": 1003,
+          "title": "Unisex Jersey Short Sleeve Tee",
+          "by": "Bella+Canvas",
+          "count": 3001,
+          "priceFrom": 8.63,
+          "pricePremium": 7.54,
+          "sizesCount": 7,
+          "colorsCount": 65,
+          "printProvidersCount": 4,
+          "bestseller": false,
+          "img": "https://images.printify.com/5d1314bdc1bdb8001121003a?s=640"
+        },
+        {
+          "id": 1004,
+          "title": "Men's Cotton Crew Tee",
+          "by": "Next Level",
+          "count": 3600,
+          "priceFrom": 9.03,
+          "pricePremium": 7.57,
+          "sizesCount": 8,
+          "colorsCount": 25,
+          "printProvidersCount": 4,
+          "bestseller": true,
+          "img": "https://images.printify.com/5d1314bdc1bdb8001121003a?s=640"
+        },
+        {
+          "id": 1005,
+          "title": "Unisex Heavy Cotton Tee",
+          "by": "Gildan",
+          "count": 5000,
+          "priceFrom": 7.88,
+          "pricePremium": 6.07,
+          "sizesCount": 8,
+          "colorsCount": 27,
+          "printProvidersCount": 4,
+          "bestseller": true,
+          "img": "https://images.printify.com/5d1314bdc1bdb8001121003a?s=640"
+        }
+      ]
+    }
+  }
+}

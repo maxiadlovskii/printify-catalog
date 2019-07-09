@@ -1,0 +1,13 @@
+.menu-spacer {
+  flex: 1 1 auto;
+}
+
+.fixed-header {
+  position: fixed;
+  z-index: 2;
+  height: 64px;
+}
+
+.mat-sidenav {
+  margin-top: 64px;
+}

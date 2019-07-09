@@ -1,0 +1,10 @@
+{
+  "I18N_CATALOG": "Каталог",
+  "I18N_HOW_IT_WORKS": "Как это работает",
+  "I18N_BY": "От {{ by }} | {{ count }}",
+  "I18N_PRICE_FROM": "От ${{ priceFrom }}",
+  "I18N_PRICE_WITH_PRINTIFY_PREMIUM": "От ${{ pricePremium }} с Printify Premium",
+  "I18N_SIZES": "{{ sizesCount }} размеров",
+  "I18N_COLORS": "{{ colorsCount }} цветов",
+  "I18N_PROVIDERS": "{{ printProvidersCount }} принт провайдеров"
+}

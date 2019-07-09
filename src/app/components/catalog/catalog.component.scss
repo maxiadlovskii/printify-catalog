@@ -1,0 +1,45 @@
+@import '../../../styles/vars.scss';
+
+.container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+  height: 100%;
+  margin-top: 64px;
+}
+
+.card {
+  width: 320px;
+  margin: 15px;
+  box-shadow: none;
+  border: 1px solid rgba($gray, 0.3);
+  cursor: pointer;
+}
+
+.selected-card {
+  outline: 1px solid #39b75d;
+}
+
+.category {
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin: 15px 0px;
+}
+
+.text-green {
+  color: $green;
+}
+
+.mat-card-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.mat-badge-content {
+  width: 80px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 5px;
+  font-size: 12px;
+}

@@ -1,0 +1,10 @@
+{
+  "I18N_CATALOG": "Catalog",
+  "I18N_HOW_IT_WORKS": "How it works",
+  "I18N_BY": "By {{ by }} | {{ count }}",
+  "I18N_PRICE_FROM": "From ${{ priceFrom }}",
+  "I18N_PRICE_WITH_PRINTIFY_PREMIUM": "From ${{ pricePremium }} with Printify Premium",
+  "I18N_SIZES": "{{ sizesCount }} sizes",
+  "I18N_COLORS": "{{ colorsCount }} colors",
+  "I18N_PROVIDERS": "{{ printProvidersCount }} print providers"
+}

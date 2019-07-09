@@ -1,0 +1,45 @@
+<div class="container">
+  <div *ngFor="let item of catalog | keyvalue">
+    <div class="category">{{ item.key }}</div>
+    <div fxLayout="row wrap" fxLayout.xs="column" fxLayoutAlign="start center">
+      <div
+        *ngFor="let tshirt of item.value"
+        class="{{ tshirt.id === selectedItemId ? 'selected-card' : '' }}"
+        id="{{ tshirt.id }}"
+      >
+        <mat-card
+          class="card"
+          (click)="onItemClick(tshirt.id)"
+          matBadge="Bestseller"
+          matBadgePosition="after"
+          matBadgeColor="primary"
+          matBadgeSize="large"
+          [matBadgeHidden]="!tshirt.bestseller"
+        >
+          <img mat-card-image [src]="tshirt.img" alt="t-shirt img" />
+          <mat-card-content>
+            <mat-card-title>{{ tshirt.title }}</mat-card-title>
+            <mat-card-subtitle>
+              <span translate [translateParams]="{ by: tshirt.by, count: tshirt.count }">I18N_BY</span>
+            </mat-card-subtitle>
+            <mat-card-title>
+              <span translate [translateParams]="{ priceFrom: tshirt.priceFrom }">I18N_PRICE_FROM</span>
+            </mat-card-title>
+            <mat-card-subtitle class="text-green">
+              <span translate [translateParams]="{ pricePremium: tshirt.pricePremium }"
+                >I18N_PRICE_WITH_PRINTIFY_PREMIUM</span
+              >
+            </mat-card-subtitle>
+            <mat-card-subtitle>
+              <span translate [translateParams]="{ sizesCount: tshirt.sizesCount }">I18N_SIZES</span> |
+              <span translate [translateParams]="{ colorsCount: tshirt.colorsCount }">I18N_COLORS</span> |
+              <span translate [translateParams]="{ printProvidersCount: tshirt.printProvidersCount }"
+                >I18N_PROVIDERS</span
+              >
+            </mat-card-subtitle>
+          </mat-card-content>
+        </mat-card>
+      </div>
+    </div>
+  </div>
+</div>
